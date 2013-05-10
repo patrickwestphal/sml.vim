@@ -12,7 +12,7 @@ elseif exists("b:current_syntax")
 
 " prefix definitions and usage
 syntax match nsPrefixExtension '\(:\)\@<=[a-zA-Z0-9_-]*'
-syntax match nsPrefix '\([a-zA-Z_][a-zA-Z0-9_]*\)\(:\)\@=' nextgroup=nsPrefixExtension
+syntax match nsPrefix '\([a-zA-Z_][a-zA-Z0-9_-]*\)\(:\)\@=' nextgroup=nsPrefixExtension
 " basic keywords
 syntax case ignore
 syntax match viewname '\(view\_s\+\)\@<=\([A-Za-z0-9_-]\+\)\(\_s\+as\)\@=' skipwhite
