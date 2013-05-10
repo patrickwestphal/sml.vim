@@ -53,9 +53,6 @@ highlight def link var PreProc
 highlight def link function Function
 highlight def link constraint Conditional
 highlight def link viewname SpecialChar
-highlight def link create Statement
-highlight def link view Statement
-highlight def link as Statement
 highlight def link logTblDef Structure
 
 let b:current_syntax = "sparqlify"
