@@ -40,7 +40,7 @@ syntax region comment start='/\*' end='\*/' fold
 syntax match nsURL '<.*>' skipwhite
 
 "functions
-syntax keyword function uri plainLiteral typedLiteral concat
+syntax keyword function uri plainLiteral typedLiteral concat bNode
 syntax keyword constraint prefix
 
 
