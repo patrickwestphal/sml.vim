@@ -22,8 +22,8 @@ syntax match var '?[A-Za-z_][A-Za-z0-9_-]*' skipwhite
 syntax case match
 
 " strings
-syntax match string '".*"'
-syntax match string "'.*'"
+syntax region string start='"' end='"'
+syntax region string start="'" end="'"
 
 " logical table definitions
 syntax case ignore
