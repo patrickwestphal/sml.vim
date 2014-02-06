@@ -55,5 +55,5 @@ highlight def link constraint Conditional
 highlight def link viewname SpecialChar
 highlight def link logTblDef Structure
 
-let b:current_syntax = "sparqlify"
+let b:current_syntax = "sml"
 
